@@ -15,7 +15,7 @@ interface pageRouteProps {
   pageRoute: string;
 }
 
-const Home = () => {
+export default function Home() {
   const router = useRouter();
 
   // Imperative routing with useRouter
@@ -57,4 +57,3 @@ const Home = () => {
   );
 };
 
-export default Home;
